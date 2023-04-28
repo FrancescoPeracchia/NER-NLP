@@ -1,6 +1,7 @@
 
-# Solution
-**read me** :  [report](report.pdf) (loaded 28/04/2023)
+# Solution (loaded 28/04/2023)
+**read me** :  [report](report.pdf)
+
 
 
 # NLP 2022: Homework #1
