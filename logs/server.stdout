@@ -1,0 +1,24 @@
+2022-04-19T23:42:56.385310143Z current dir is
+2022-04-19T23:42:56.385347133Z ('/home/app', ['hw1', 'model'], ['requirements.txt'])
+2022-04-19T23:42:56.385353745Z ('/home/app/hw1', ['data', '__pycache__', 'stud'], ['evaluate.py', 'model.py', '__init__.py', 'simple_test.py', 'app.py'])
+2022-04-19T23:42:56.385358770Z ('/home/app/hw1/data', [], ['Weight_Glove200.npy', 'train.tsv', 'dev.tsv', 'Dict_Glove200.npy'])
+2022-04-19T23:42:56.385362547Z ('/home/app/hw1/__pycache__', [], ['model.cpython-39.pyc', 'model.cpython-38.pyc'])
+2022-04-19T23:42:56.385366577Z ('/home/app/hw1/stud', ['__pycache__'], ['implementation.py', 'implementation_w2w.py', 'training_word2vec .ipynb', 'load.ipynb', 'utils.py', '__init__.py', 'train_glove300&W2w.ipynb', 'training_Glove.ipynb', 'pre-trained.ipynb', 'plot.py'])
+2022-04-19T23:42:56.385371061Z ('/home/app/hw1/stud/__pycache__', [], ['__init__.cpython-39.pyc', 'utils.cpython-39.pyc', 'implementation.cpython-39.pyc', 'implementation.cpython-38.pyc', '__init__.cpython-38.pyc'])
+2022-04-19T23:42:56.385375121Z ('/home/app/model', [], ['model_glove200.pt'])
+2022-04-19T23:42:56.385378571Z 
+2022-04-19T23:42:56.385381833Z Vocabulary Created
+2022-04-19T23:42:56.385385324Z 
+2022-04-19T23:42:56.385388637Z torch.Size([400002, 200])
+2022-04-19T23:42:56.385392002Z LSTM_Glovo(
+2022-04-19T23:42:56.385395509Z   (lstm_glovo): LSTM(200, 200, num_layers=2, batch_first=True, dropout=0.3, bidirectional=True)
+2022-04-19T23:42:56.385399346Z   (hidden2tag): Linear(in_features=400, out_features=200, bias=True)
+2022-04-19T23:42:56.385402881Z   (drop): Dropout(p=0.3, inplace=False)
+2022-04-19T23:42:56.385406408Z   (hidden3tag): Linear(in_features=200, out_features=13, bias=True)
+2022-04-19T23:42:56.385409879Z   (soft_max): Softmax(dim=2)
+2022-04-19T23:42:56.385413366Z )
+2022-04-19T23:42:56.385416795Z  * Serving Flask app 'app' (lazy loading)
+2022-04-19T23:42:56.385635579Z  * Environment: production
+2022-04-19T23:42:56.385740791Z    WARNING: This is a development server. Do not use it in a production deployment.
+2022-04-19T23:42:56.385804038Z    Use a production WSGI server instead.
+2022-04-19T23:42:56.385879508Z  * Debug mode: off
